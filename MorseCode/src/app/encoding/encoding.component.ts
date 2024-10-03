@@ -22,4 +22,8 @@ export class EncodingComponent {
     const output = this.morseCodeService.translateToText(input);
     this.outputSignal.set(output);
   }
+
+  sound() {
+    this.morseCodeService.translateToSound(this.inputSignal());
+  }
 }

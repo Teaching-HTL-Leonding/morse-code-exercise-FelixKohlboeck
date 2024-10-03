@@ -22,4 +22,8 @@ export class DecodingComponent {
     const output = this.morseCodeService.translateToMorse(input);
     this.outputSignal.set(output);
   }
+
+  sound() {
+    this.morseCodeService.translateToSound(this.outputSignal());
+  }
 }
