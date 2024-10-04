@@ -1,0 +1,29 @@
+router-outlet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.router-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+}
+li{
+  text-align: left;
+  font-size: 30px;
+}
+
+h1{
+  text-align: center;
+}

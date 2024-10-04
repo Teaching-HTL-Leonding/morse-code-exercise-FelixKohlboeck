@@ -1,11 +1,11 @@
-<div class="encoding-container">
+<div class="decoding-container">
   <h2>Morse Code Encoder</h2>
 
   <textarea
     id="morseInput"
     [ngModel]="inputSignal()"
     (ngModelChange)="inputSignal.set($event)"
-    placeholder="Enter Morse code (e.g., .- -... -.-.)"
+    placeholder="Enter text to translate to Morse code"
     rows="5"
     cols="30"
   ></textarea>
